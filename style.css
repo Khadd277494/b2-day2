@@ -1,0 +1,60 @@
+/* Reset mặc định */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header
+{
+    display: flex;
+    padding: 0px 50px;
+    justify-content: space-between;
+    position: sticky;
+    top: 0; /* Dính ở đầu trang */
+    z-index: 1000; /* Đảm bảo menu nằm trên các nội dung khác */
+    background-color: white;
+}
+.conteiner
+{
+    margin: 0px auto;
+    max-width: 800px;
+}
+.logo
+{
+    background-color: white;
+}
+ul#menu
+{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    
+}
+ul#menu a
+{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;   
+    padding: 15px 20px; 
+    display: block;
+}
+
+.image
+{
+    background-color: bisque;
+    display: inline-block;  
+    height: 50px;/* ảnh k bị tràn url*/
+    width: 70;/* ảnh k bị tràn url*/
+    margin-left: 210px;
+}
+.blackline
+{
+    background-color: black;
+    height: 0.05px;
+    width: 100%;
+}
+.content
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 300px 300px;
+}
